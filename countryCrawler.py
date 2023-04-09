@@ -22,8 +22,8 @@ for item in continent_list_with_countries:
 
 # Step 2: Store the list of countries in a PostgreSQL database
 conn = psycopg2.connect(
-    dbname="db_name",
-    user="user",
+    dbname="data-dashboard",
+    user="nima",
     password="",
     host="localhost"
 )
